@@ -10,7 +10,7 @@
 #include <linux/tty.h>
 #include <sys/times.h>
 #include <sys/utsname.h>
-
+#include <test.h>
 int sys_ftime()
 {
 	return -ENOSYS;

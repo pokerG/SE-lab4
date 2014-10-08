@@ -4,8 +4,8 @@
 #
 RAMDISK =  #-DRAMDISK=512
 
-AS86	=as86 -0 -a
-LD86	=ld86 -0
+AS86	=as64 -0 -a
+LD86	=ld64 -0
 
 AS	=as
 LD	=ld
