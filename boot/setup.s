@@ -19,8 +19,6 @@ SYSSEG   = 0x1000	! system loaded at 0x10000 (65536).
 SETUPSEG = 0x9020	! this is the current segment
 
 .globl begtext, begdata, begbss, endtext, enddata, endbss
-.text
-begtext:
 .data
 begdata:
 .bss

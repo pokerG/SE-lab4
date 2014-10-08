@@ -8,8 +8,6 @@
 
 #include <linux/sched.h>
 #include <linux/tty.h>
-#include <linux/kernel.h>
-#include <asm/segment.h>
 #include <sys/times.h>
 #include <sys/utsname.h>
 

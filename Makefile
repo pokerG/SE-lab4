@@ -13,9 +13,6 @@ LDFLAGS	=-m elf_i386 -Ttext 0 -e startup_32
 CC	=gcc-3.4 -march=i386 $(RAMDISK)
 CFLAGS	=-m32 -g -Wall -O2 -fomit-frame-pointer 
 
-CPP	=cpp -nostdinc -Iinclude
-
-#
 # ROOT_DEV specifies the default root-device when making the image.
 # This can be either FLOPPY, /dev/xxxx or empty, in which case the
 # default of /dev/hd6 is used by 'build'.
