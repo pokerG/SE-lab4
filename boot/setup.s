@@ -18,7 +18,6 @@ INITSEG  = 0x9000	! we move boot here - out of the way
 SYSSEG   = 0x1000	! system loaded at 0x10000 (65536).
 SETUPSEG = 0x9020	! this is the current segment
 
-.globl begtext, begdata, begbss, endtext, enddata, endbss
 .text
 begtext:
 .data
